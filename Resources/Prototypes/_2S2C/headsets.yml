@@ -1,0 +1,128 @@
+- type: entity
+  parent: ClothingHeadset
+  id: 2S2CClothingHeadsetNanotrasenCommon
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - 2S2CEncryptionKeyNanotrasenCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/base.rsi
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetNanotrasenCommon
+#   id: 2S2CClothingHeadsetNanotrasenCommand
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeyNanotrasenCommand
+#       - 2S2CEncryptionKeyNanotrasenCommon
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetNanotrasenCommon
+#   id: 2S2CClothingHeadsetNanotrasenSupplier
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeyNanotrasenSupplier
+#       - 2S2CEncryptionKeyNanotrasenCommon
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetNanotrasenCommon
+#   id: 2S2CClothingHeadsetNanotrasenOperative
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeyNanotrasenOperative
+#       - 2S2CEncryptionKeyNanotrasenCommon
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetNanotrasenCommon
+#   id: 2S2CClothingHeadsetNanotrasenTechnician
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeyNanotrasenTechnician
+#       - 2S2CEncryptionKeyNanotrasenCommon
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetNanotrasenCommon
+#   id: 2S2CClothingHeadsetNanotrasenService
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeyNanotrasenService
+#       - 2S2CEncryptionKeyNanotrasenCommon
+
+
+- type: entity
+  parent: ClothingHeadset
+  id: 2S2CClothingHeadsetSyndicateCommon
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - 2S2CEncryptionKeySyndicateCommon
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/base_syndicate.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/base_syndicate.rsi
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetSyndicateCommon
+#   id: 2S2CClothingHeadsetSyndicateSupplier
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeySyndicateSupplier
+#       - 2S2CEncryptionKeySyndicateCommon
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetSyndicateCommon
+#   id: 2S2CClothingHeadsetSyndicateOperative
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeySyndicateOperative
+#       - 2S2CEncryptionKeySyndicateCommon
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetSyndicateCommon
+#   id: 2S2CClothingHeadsetSyndicateTechnician
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeySyndicateTechnician
+#       - 2S2CEncryptionKeySyndicateCommon
+
+# - type: entity
+#   parent: 2S2CClothingHeadsetSyndicateCommon
+#   id: 2S2CClothingHeadsetSyndicateService
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       # - 2S2CEncryptionKeySyndicateService
+#       - 2S2CEncryptionKeySyndicateCommon
+
+
+- type: entity
+  parent: ClothingHeadset
+  id: 2S2CClothingHeadsetATS
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - 2S2CEncryptionKeyATS
+  - type: Sprite
+    sprite: Clothing/Ears/Headsets/centcom.rsi
+  - type: Clothing
+    sprite: Clothing/Ears/Headsets/centcom.rsi

@@ -1,0 +1,151 @@
+- type: entity
+  parent: [ EncryptionKey ]
+  id: 2S2CEncryptionKeyNanotrasenCommon
+  name: nanotrasen common encryption key
+  components:
+  - type: Sprite
+    layers:
+    - state: crypt_blue
+    - state: nano_label
+  - type: EncryptionKey
+    channels:
+    - NanotrasenCommon
+    defaultChannel: NanotrasenCommon
+
+- type: entity
+  parent: [ EncryptionKey ]
+  id: 2S2CEncryptionKeySyndicateCommon
+  name: syndicate common encryption key
+  components:
+  - type: Sprite
+    layers:
+    - state: crypt_red
+    - state: synd_label
+  - type: EncryptionKey
+    channels:
+    - SyndicateCommon
+    defaultChannel: SyndicateCommon
+
+- type: entity
+  parent: [ EncryptionKey ]
+  id: 2S2CEncryptionKeyATS
+  name: ATS encryption key
+  components:
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: com_label
+  - type: EncryptionKey
+    channels:
+    - ATS
+    defaultChannel: ATS
+
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenCommand
+#   name: nanotrasen command encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenCommand
+#     defaultChannel: NanotrasenCommand
+#   - type: Sprite
+#     layers:
+#     - state: crypt_red
+#     - state: com_label
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenSupplier
+#   name: nanotrasen supplier encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenSupplier
+#     defaultChannel: NanotrasenSupplier
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenOperative
+#   name: nanotrasen operative encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenOperative
+#     defaultChannel: NanotrasenOperative
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenTechnician
+#   name: nanotrasen technician encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenTechnician
+#     defaultChannel: NanotrasenTechnician
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenService
+#   name: nanotrasen service encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenService
+#     defaultChannel: NanotrasenService
+
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeySyndicateCommon ]
+#   id: 2S2CEncryptionKeySyndicateCommand
+#   name: syndicate command encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - SyndicateCommand
+#     defaultChannel: SyndicateCommand
+#   - type: Sprite
+#     layers:
+#     - state: crypt_blue
+#     - state: com_label
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeySyndicateCommon ]
+#   id: 2S2CEncryptionKeySyndicateSupplier
+#   name: syndicate supplier encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - SyndicateSupplier
+#     defaultChannel: SyndicateSupplier
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeySyndicateCommon ]
+#   id: 2S2CEncryptionKeySyndicateOperative
+#   name: syndicate operative encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - SyndicateOperative
+#     defaultChannel: SyndicateOperative
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeySyndicateCommon ]
+#   id: 2S2CEncryptionKeySyndicateTechnician
+#   name: syndicate technician encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - SyndicateTechnician
+#     defaultChannel: SyndicateTechnician
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeySyndicateCommon ]
+#   id: 2S2CEncryptionKeySyndicateService
+#   name: syndicate service encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - SyndicateService
+#     defaultChannel: SyndicateService
