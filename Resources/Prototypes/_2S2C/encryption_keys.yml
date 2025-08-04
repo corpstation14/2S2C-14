@@ -26,20 +26,6 @@
     - SyndicateCommon
     defaultChannel: SyndicateCommon
 
-- type: entity
-  parent: [ EncryptionKey ]
-  id: 2S2CEncryptionKeyATS
-  name: ATS encryption key
-  components:
-  - type: Sprite
-    layers:
-    - state: crypt_gold
-    - state: com_label
-  - type: EncryptionKey
-    channels:
-    - ATS
-    defaultChannel: ATS
-
 
 # - type: entity
 #   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
@@ -56,47 +42,6 @@
 #     - state: com_label
 
 # - type: entity
-#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
-#   id: 2S2CEncryptionKeyNanotrasenSupplier
-#   name: nanotrasen supplier encryption key
-#   components:
-#   - type: EncryptionKey
-#     channels:
-#     - NanotrasenSupplier
-#     defaultChannel: NanotrasenSupplier
-
-# - type: entity
-#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
-#   id: 2S2CEncryptionKeyNanotrasenOperative
-#   name: nanotrasen operative encryption key
-#   components:
-#   - type: EncryptionKey
-#     channels:
-#     - NanotrasenOperative
-#     defaultChannel: NanotrasenOperative
-
-# - type: entity
-#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
-#   id: 2S2CEncryptionKeyNanotrasenTechnician
-#   name: nanotrasen technician encryption key
-#   components:
-#   - type: EncryptionKey
-#     channels:
-#     - NanotrasenTechnician
-#     defaultChannel: NanotrasenTechnician
-
-# - type: entity
-#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
-#   id: 2S2CEncryptionKeyNanotrasenService
-#   name: nanotrasen service encryption key
-#   components:
-#   - type: EncryptionKey
-#     channels:
-#     - NanotrasenService
-#     defaultChannel: NanotrasenService
-
-
-# - type: entity
 #   parent: [ 2S2CEncryptionKeySyndicateCommon ]
 #   id: 2S2CEncryptionKeySyndicateCommand
 #   name: syndicate command encryption key
@@ -110,6 +55,17 @@
 #     - state: crypt_blue
 #     - state: com_label
 
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenSupplier
+#   name: nanotrasen supplier encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenSupplier
+#     defaultChannel: NanotrasenSupplier
+
 # - type: entity
 #   parent: [ 2S2CEncryptionKeySyndicateCommon ]
 #   id: 2S2CEncryptionKeySyndicateSupplier
@@ -119,6 +75,17 @@
 #     channels:
 #     - SyndicateSupplier
 #     defaultChannel: SyndicateSupplier
+
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenOperative
+#   name: nanotrasen operative encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenOperative
+#     defaultChannel: NanotrasenOperative
 
 # - type: entity
 #   parent: [ 2S2CEncryptionKeySyndicateCommon ]
@@ -130,6 +97,17 @@
 #     - SyndicateOperative
 #     defaultChannel: SyndicateOperative
 
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenTechnician
+#   name: nanotrasen technician encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenTechnician
+#     defaultChannel: NanotrasenTechnician
+
 # - type: entity
 #   parent: [ 2S2CEncryptionKeySyndicateCommon ]
 #   id: 2S2CEncryptionKeySyndicateTechnician
@@ -140,6 +118,17 @@
 #     - SyndicateTechnician
 #     defaultChannel: SyndicateTechnician
 
+
+# - type: entity
+#   parent: [ 2S2CEncryptionKeyNanotrasenCommon ]
+#   id: 2S2CEncryptionKeyNanotrasenService
+#   name: nanotrasen service encryption key
+#   components:
+#   - type: EncryptionKey
+#     channels:
+#     - NanotrasenService
+#     defaultChannel: NanotrasenService
+
 # - type: entity
 #   parent: [ 2S2CEncryptionKeySyndicateCommon ]
 #   id: 2S2CEncryptionKeySyndicateService
@@ -149,3 +138,18 @@
 #     channels:
 #     - SyndicateService
 #     defaultChannel: SyndicateService
+
+
+- type: entity
+  parent: [ EncryptionKey ]
+  id: 2S2CEncryptionKeyATS
+  name: ATS encryption key
+  components:
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: com_label
+  - type: EncryptionKey
+    channels:
+    - ATS
+    defaultChannel: ATS

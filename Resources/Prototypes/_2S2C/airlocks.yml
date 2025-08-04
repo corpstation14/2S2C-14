@@ -19,119 +19,6 @@
   - type: AccessReader
     access: [["NanotrasenCommand"]]
 
-
-- type: entity
-  parent: Airlock
-  id: 2S2CAirlockNanotrasenCrew
-  suffix: 2S2C, NanotrasenCrew, Locked
-  components:
-  - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/command.rsi
-  - type: Wires
-    layoutId: AirlockScience
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsNanotrasenCrew ]
-
-- type: entity
-  parent: DoorElectronics
-  id: DoorElectronicsNanotrasenCrew
-  suffix: 2S2C, NanotrasenCrew, Locked
-  components:
-  - type: AccessReader
-    access: [["NanotrasenCrew"]]
-
-
-- type: entity
-  parent: Airlock
-  id: 2S2CAirlockNanotrasenSupplier
-  suffix: 2S2C, NanotrasenSupplier, Locked
-  components:
-  - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/command.rsi
-  - type: Wires
-    layoutId: AirlockCargo
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsNanotrasenSupplier ]
-
-- type: entity
-  parent: DoorElectronics
-  id: DoorElectronicsNanotrasenSupplier
-  suffix: 2S2C, NanotrasenSupplier, Locked
-  components:
-  - type: AccessReader
-    access: [["NanotrasenSupplier"]]
-
-
-- type: entity
-  parent: Airlock
-  id: 2S2CAirlockNanotrasenOperative
-  suffix: 2S2C, NanotrasenOperative, Locked
-  components:
-  - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/command.rsi
-  - type: Wires
-    layoutId: AirlockSecurity
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsNanotrasenOperative ]
-
-- type: entity
-  parent: DoorElectronics
-  id: DoorElectronicsNanotrasenOperative
-  suffix: 2S2C, NanotrasenOperative, Locked
-  components:
-  - type: AccessReader
-    access: [["NanotrasenOperative"]]
-
-
-- type: entity
-  parent: Airlock
-  id: 2S2CAirlockNanotrasenTechnitian
-  suffix: 2S2C, NanotrasenTechnitian, Locked
-  components:
-  - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/command.rsi
-  - type: Wires
-    layoutId: AirlockEngineering
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsNanotrasenTechnitian ]
-
-- type: entity
-  parent: DoorElectronics
-  id: DoorElectronicsNanotrasenTechnitian
-  suffix: 2S2C, NanotrasenTechnitian, Locked
-  components:
-  - type: AccessReader
-    access: [["NanotrasenTechnitian"]]
-
-
-- type: entity
-  parent: Airlock
-  id: 2S2CAirlockNanotrasenService
-  suffix: 2S2C, NanotrasenService, Locked
-  components:
-  - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/command.rsi
-  - type: Wires
-    layoutId: AirlockService
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsNanotrasenService ]
-
-- type: entity
-  parent: DoorElectronics
-  id: DoorElectronicsNanotrasenService
-  suffix: 2S2C, NanotrasenService, Locked
-  components:
-  - type: AccessReader
-    access: [["NanotrasenService"]]
-
-
-
-
 - type: entity
   parent: Airlock
   id: 2S2CAirlockSyndicateCommand
@@ -153,6 +40,27 @@
   - type: AccessReader
     access: [["SyndicateCommand"]]
 
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenCrew
+  suffix: 2S2C, NanotrasenCrew, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockScience
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenCrew ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenCrew
+  suffix: 2S2C, NanotrasenCrew, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenCrew"]]
 
 - type: entity
   parent: Airlock
@@ -178,6 +86,27 @@
 
 - type: entity
   parent: Airlock
+  id: 2S2CAirlockNanotrasenSupplier
+  suffix: 2S2C, NanotrasenSupplier, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenSupplier ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenSupplier
+  suffix: 2S2C, NanotrasenSupplier, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenSupplier"]]
+
+- type: entity
+  parent: Airlock
   id: 2S2CAirlockSyndicateSupplier
   suffix: 2S2C, SyndicateSupplier, Locked
   components:
@@ -197,6 +126,27 @@
   - type: AccessReader
     access: [["SyndicateSupplier"]]
 
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenOperative
+  suffix: 2S2C, NanotrasenOperative, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockSecurity
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenOperative ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenOperative
+  suffix: 2S2C, NanotrasenOperative, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenOperative"]]
 
 - type: entity
   parent: Airlock
@@ -222,6 +172,27 @@
 
 - type: entity
   parent: Airlock
+  id: 2S2CAirlockNanotrasenTechnitian
+  suffix: 2S2C, NanotrasenTechnitian, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenTechnitian ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenTechnitian
+  suffix: 2S2C, NanotrasenTechnitian, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenTechnitian"]]
+
+- type: entity
+  parent: Airlock
   id: 2S2CAirlockSyndicateTechnitian
   suffix: 2S2C, SyndicateTechnitian, Locked
   components:
@@ -240,6 +211,28 @@
   components:
   - type: AccessReader
     access: [["SyndicateTechnitian"]]
+
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenService
+  suffix: 2S2C, NanotrasenService, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockService
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenService ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenService
+  suffix: 2S2C, NanotrasenService, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenService"]]
 
 
 - type: entity

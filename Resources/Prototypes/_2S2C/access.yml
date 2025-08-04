@@ -3,45 +3,49 @@
   name: NT Captain
 
 - type: accessLevel
+  id: SyndicateCaptain
+  name: Syndicate Captain
+
+
+- type: accessLevel
   id: NanotrasenCrew
-  name: Syndicate
+  name: NT Employee
+
+- type: accessLevel
+  id: SyndicateCrew
+  name: Syndicate Employee
+
 
 - type: accessLevel
   id: NanotrasenSupplier
   name: NT Supplier
 
 - type: accessLevel
+  id: SyndicateSupplier
+  name: Syndicate Supplier
+
+
+- type: accessLevel
   id: NanotrasenOperative
   name: NT Operative
+
+- type: accessLevel
+  id: SyndicateOperative
+  name: Syndicate Operative
+
 
 - type: accessLevel
   id: NanotrasenTechnician
   name: NT Technician
 
 - type: accessLevel
-  id: NanotrasenService
-  name: NT Service Worker
-
-
-- type: accessLevel
-  id: SyndicateCaptain
-  name: Syndicate Captain
-
-- type: accessLevel
-  id: SyndicateCrew
-  name: Syndicate
-
-- type: accessLevel
-  id: SyndicateSupplier
-  name: Syndicate Supplier
-
-- type: accessLevel
-  id: SyndicateOperative
-  name: Syndicate Operative
-
-- type: accessLevel
   id: SyndicateTechnician
   name: Syndicate Technician
+
+
+- type: accessLevel
+  id: NanotrasenService
+  name: NT Service Worker
 
 - type: accessLevel
   id: SyndicateService

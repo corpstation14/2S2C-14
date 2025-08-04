@@ -5,12 +5,28 @@
   frequency: 4211
   color: "#123f8c"
 
+- type: radioChannel
+  id: SyndicateCommon
+  name: radio-channel-synd
+  keycode: 'p'
+  frequency: 4411
+  color: "#8c121c"
+
+
 # - type: radioChannel
 #   id: NanotrasenCommand
 #   name: NT Command
 #   keycode: 'c'
 #   frequency: 4201
 #   color: "#185fd9"
+
+# - type: radioChannel
+#   id: SyndicateCommand
+#   name: Synd Command
+#   keycode: 'c'
+#   frequency: 4401
+#   color: "#df1627"
+
 
 # - type: radioChannel
 #   id: NanotrasenSupplier
@@ -20,11 +36,27 @@
 #   color: "#b98159"
 
 # - type: radioChannel
+#   id: SyndicateSupplier
+#   name: Synd Supplier
+#   keycode: 's'
+#   frequency: 4412
+#   color: "#d77bba"
+
+
+# - type: radioChannel
 #   id: NanotrasenOperative
 #   name: NT Operative
 #   keycode: 'o'
 #   frequency: 4220
 #   color: "#28dcd5"
+
+# - type: radioChannel
+#   id: SyndicateOperative
+#   name: Synd Operative
+#   keycode: 'o'
+#   frequency: 4420
+#   color: "#4c398c"
+
 
 # - type: radioChannel
 #   id: NanotrasenTechnician
@@ -34,47 +66,19 @@
 #   color: "#ec751e"
 
 # - type: radioChannel
-#   id: NanotrasenService
-#   name: NT Service
-#   keycode: 'v'
-#   frequency: 4215
-#   color: "#fcdf03"
-
-
-- type: radioChannel
-  id: SyndicateCommon
-  name: radio-channel-synd
-  keycode: 'p'
-  frequency: 4411
-  color: "#8c121c"
-
-# - type: radioChannel
-#   id: SyndicateCommand
-#   name: Synd Command
-#   keycode: 'c'
-#   frequency: 4401
-#   color: "#df1627"
-
-# - type: radioChannel
-#   id: SyndicateSupplier
-#   name: Synd Supplier
-#   keycode: 's'
-#   frequency: 4412
-#   color: "#d77bba"
-
-# - type: radioChannel
-#   id: SyndicateOperative
-#   name: Synd Operative
-#   keycode: 'o'
-#   frequency: 4420
-#   color: "#4c398c"
-
-# - type: radioChannel
 #   id: SyndicateTechnician
 #   name: Synd Technician
 #   keycode: 't'
 #   frequency: 4414
 #   color: "#8c121c"
+
+
+# - type: radioChannel
+#   id: NanotrasenService
+#   name: NT Service
+#   keycode: 'v'
+#   frequency: 4215
+#   color: "#fcdf03"
 
 # - type: radioChannel
 #   id: SyndicateService
