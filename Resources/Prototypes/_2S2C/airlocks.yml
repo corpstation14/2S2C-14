@@ -1,7 +1,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockNanotrasenCommand
-  suffix: NanotrasenCommand, Locked
+  suffix: 2S2C, NanotrasenCommand, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/command.rsi
@@ -14,7 +14,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenCommand
-  suffix: NanotrasenCommand, Locked
+  suffix: 2S2C, NanotrasenCommand, Locked
   components:
   - type: AccessReader
     access: [["NanotrasenCommand"]]
@@ -23,7 +23,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockNanotrasenCrew
-  suffix: NanotrasenCrew, Locked
+  suffix: 2S2C, NanotrasenCrew, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/command.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenCrew
-  suffix: NanotrasenCrew, Locked
+  suffix: 2S2C, NanotrasenCrew, Locked
   components:
   - type: AccessReader
     access: [["NanotrasenCrew"]]
@@ -45,7 +45,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockNanotrasenSupplier
-  suffix: NanotrasenSupplier, Locked
+  suffix: 2S2C, NanotrasenSupplier, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/command.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenSupplier
-  suffix: NanotrasenSupplier, Locked
+  suffix: 2S2C, NanotrasenSupplier, Locked
   components:
   - type: AccessReader
     access: [["NanotrasenSupplier"]]
@@ -67,7 +67,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockNanotrasenOperative
-  suffix: NanotrasenOperative, Locked
+  suffix: 2S2C, NanotrasenOperative, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/command.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenOperative
-  suffix: NanotrasenOperative, Locked
+  suffix: 2S2C, NanotrasenOperative, Locked
   components:
   - type: AccessReader
     access: [["NanotrasenOperative"]]
@@ -89,7 +89,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockNanotrasenTechnitian
-  suffix: NanotrasenTechnitian, Locked
+  suffix: 2S2C, NanotrasenTechnitian, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/command.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenTechnitian
-  suffix: NanotrasenTechnitian, Locked
+  suffix: 2S2C, NanotrasenTechnitian, Locked
   components:
   - type: AccessReader
     access: [["NanotrasenTechnitian"]]
@@ -111,7 +111,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockNanotrasenService
-  suffix: NanotrasenService, Locked
+  suffix: 2S2C, NanotrasenService, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/command.rsi
@@ -124,7 +124,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsNanotrasenService
-  suffix: NanotrasenService, Locked
+  suffix: 2S2C, NanotrasenService, Locked
   components:
   - type: AccessReader
     access: [["NanotrasenService"]]
@@ -135,7 +135,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockSyndicateCommand
-  suffix: SyndicateCommand, Locked
+  suffix: 2S2C, SyndicateCommand, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
@@ -148,7 +148,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSyndicateCommand
-  suffix: SyndicateCommand, Locked
+  suffix: 2S2C, SyndicateCommand, Locked
   components:
   - type: AccessReader
     access: [["SyndicateCommand"]]
@@ -157,7 +157,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockSyndicateCrew
-  suffix: SyndicateCrew, Locked
+  suffix: 2S2C, SyndicateCrew, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSyndicateCrew
-  suffix: SyndicateCrew, Locked
+  suffix: 2S2C, SyndicateCrew, Locked
   components:
   - type: AccessReader
     access: [["SyndicateCrew"]]
@@ -179,7 +179,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockSyndicateSupplier
-  suffix: SyndicateSupplier, Locked
+  suffix: 2S2C, SyndicateSupplier, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
@@ -192,7 +192,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSyndicateSupplier
-  suffix: SyndicateSupplier, Locked
+  suffix: 2S2C, SyndicateSupplier, Locked
   components:
   - type: AccessReader
     access: [["SyndicateSupplier"]]
@@ -201,7 +201,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockSyndicateOperative
-  suffix: SyndicateOperative, Locked
+  suffix: 2S2C, SyndicateOperative, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
@@ -214,7 +214,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSyndicateOperative
-  suffix: SyndicateOperative, Locked
+  suffix: 2S2C, SyndicateOperative, Locked
   components:
   - type: AccessReader
     access: [["SyndicateOperative"]]
@@ -223,7 +223,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockSyndicateTechnitian
-  suffix: SyndicateTechnitian, Locked
+  suffix: 2S2C, SyndicateTechnitian, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
@@ -236,7 +236,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSyndicateTechnitian
-  suffix: SyndicateTechnitian, Locked
+  suffix: 2S2C, SyndicateTechnitian, Locked
   components:
   - type: AccessReader
     access: [["SyndicateTechnitian"]]
@@ -245,7 +245,7 @@
 - type: entity
   parent: Airlock
   id: 2S2CAirlockSyndicateService
-  suffix: SyndicateService, Locked
+  suffix: 2S2C, SyndicateService, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
@@ -258,7 +258,7 @@
 - type: entity
   parent: DoorElectronics
   id: DoorElectronicsSyndicateService
-  suffix: SyndicateService, Locked
+  suffix: 2S2C, SyndicateService, Locked
   components:
   - type: AccessReader
     access: [["SyndicateService"]]
