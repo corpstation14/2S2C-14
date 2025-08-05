@@ -1,0 +1,257 @@
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenCommand
+  suffix: 2S2C, NanotrasenCommand, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockCommand
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenCommand ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenCommand
+  suffix: 2S2C, NanotrasenCommand, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenCommand"]]
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockSyndicateCommand
+  suffix: 2S2C, SyndicateCommand, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockCommand
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateCommand ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsSyndicateCommand
+  suffix: 2S2C, SyndicateCommand, Locked
+  components:
+  - type: AccessReader
+    access: [["SyndicateCommand"]]
+
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenCrew
+  suffix: 2S2C, NanotrasenCrew, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockScience
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenCrew ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenCrew
+  suffix: 2S2C, NanotrasenCrew, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenCrew"]]
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockSyndicateCrew
+  suffix: 2S2C, SyndicateCrew, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockScience
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateCrew ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsSyndicateCrew
+  suffix: 2S2C, SyndicateCrew, Locked
+  components:
+  - type: AccessReader
+    access: [["SyndicateCrew"]]
+
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenSupplier
+  suffix: 2S2C, NanotrasenSupplier, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenSupplier ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenSupplier
+  suffix: 2S2C, NanotrasenSupplier, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenSupplier"]]
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockSyndicateSupplier
+  suffix: 2S2C, SyndicateSupplier, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateSupplier ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsSyndicateSupplier
+  suffix: 2S2C, SyndicateSupplier, Locked
+  components:
+  - type: AccessReader
+    access: [["SyndicateSupplier"]]
+
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenOperative
+  suffix: 2S2C, NanotrasenOperative, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockSecurity
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenOperative ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenOperative
+  suffix: 2S2C, NanotrasenOperative, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenOperative"]]
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockSyndicateOperative
+  suffix: 2S2C, SyndicateOperative, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockSecurity
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateOperative ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsSyndicateOperative
+  suffix: 2S2C, SyndicateOperative, Locked
+  components:
+  - type: AccessReader
+    access: [["SyndicateOperative"]]
+
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenTechnician
+  suffix: 2S2C, NanotrasenTechnician, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenTechnician ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenTechnician
+  suffix: 2S2C, NanotrasenTechnician, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenTechnician"]]
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockSyndicateTechnician
+  suffix: 2S2C, SyndicateTechnician, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateTechnician ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsSyndicateTechnician
+  suffix: 2S2C, SyndicateTechnician, Locked
+  components:
+  - type: AccessReader
+    access: [["SyndicateTechnician"]]
+
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockNanotrasenService
+  suffix: 2S2C, NanotrasenService, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+  - type: Wires
+    layoutId: AirlockService
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsNanotrasenService ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsNanotrasenService
+  suffix: 2S2C, NanotrasenService, Locked
+  components:
+  - type: AccessReader
+    access: [["NanotrasenService"]]
+
+
+- type: entity
+  parent: Airlock
+  id: 2S2CAirlockSyndicateService
+  suffix: 2S2C, SyndicateService, Locked
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+  - type: Wires
+    layoutId: AirlockService
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSyndicateService ]
+
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsSyndicateService
+  suffix: 2S2C, SyndicateService, Locked
+  components:
+  - type: AccessReader
+    access: [["SyndicateService"]]
