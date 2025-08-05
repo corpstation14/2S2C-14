@@ -72,7 +72,10 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
+    minAngle: 16
+    maxAngle: 24
     fireRate: 10
+    angleIncrease: 2
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
   - type: MagazineVisuals
