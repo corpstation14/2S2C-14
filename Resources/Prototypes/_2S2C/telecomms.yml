@@ -10,7 +10,7 @@
 
 - type: entity
   parent: TelecomServer
-  id: TelecomServerFilledCommon
+  id: TelecomServerFilledSyndicateCommon
   suffix: Common
   components:
   - type: ContainerFill
@@ -19,114 +19,114 @@
       - 2S2CEncryptionKeySyndicateCommon
 
 
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeyNanotrasenCommand
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledNanotrasenCommand
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeyNanotrasenCommand
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledSyndicateCommand
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeySyndicateCommand
+
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledNanotrasenSupplier
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeyNanotrasenSupplier
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledSyndicateSupplier
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeySyndicateSupplier
+
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledNanotrasenOperative
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeyNanotrasenOperative
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledSyndicateOperative
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeySyndicateOperative
+
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledNanotrasenTechnician
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeyNanotrasenTechnician
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledSyndicateTechnician
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeySyndicateTechnician
+
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledNanotrasenService
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeyNanotrasenService
+
+# - type: entity
+#   parent: TelecomServer
+#   id: TelecomServerFilledSyndicateService
+#   suffix: Common
+#   components:
+#   - type: ContainerFill
+#     containers:
+#       key_slots:
+#       - 2S2CEncryptionKeySyndicateService
+
 
 - type: entity
   parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeySyndicateCommand
-
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeyNanotrasenSupplier
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeySyndicateSupplier
-
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeyNanotrasenOperative
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeySyndicateOperative
-
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeyNanotrasenTechnician
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeySyndicateTechnician
-
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeyNanotrasenService
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
-  suffix: Common
-  components:
-  - type: ContainerFill
-    containers:
-      key_slots:
-      - 2S2CEncryptionKeySyndicateService
-
-
-- type: entity
-  parent: TelecomServer
-  id: TelecomServerFilledCommon
+  id: TelecomServerFilledATS
   suffix: Common
   components:
   - type: ContainerFill

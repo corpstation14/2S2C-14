@@ -172,8 +172,8 @@
 
 - type: entity
   parent: Airlock
-  id: 2S2CAirlockNanotrasenTechnitian
-  suffix: 2S2C, NanotrasenTechnitian, Locked
+  id: 2S2CAirlockNanotrasenTechnician
+  suffix: 2S2C, NanotrasenTechnician, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/command.rsi
@@ -181,20 +181,20 @@
     layoutId: AirlockEngineering
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsNanotrasenTechnitian ]
+      board: [ DoorElectronicsNanotrasenTechnician ]
 
 - type: entity
   parent: DoorElectronics
-  id: DoorElectronicsNanotrasenTechnitian
-  suffix: 2S2C, NanotrasenTechnitian, Locked
+  id: DoorElectronicsNanotrasenTechnician
+  suffix: 2S2C, NanotrasenTechnician, Locked
   components:
   - type: AccessReader
-    access: [["NanotrasenTechnitian"]]
+    access: [["NanotrasenTechnician"]]
 
 - type: entity
   parent: Airlock
-  id: 2S2CAirlockSyndicateTechnitian
-  suffix: 2S2C, SyndicateTechnitian, Locked
+  id: 2S2CAirlockSyndicateTechnician
+  suffix: 2S2C, SyndicateTechnician, Locked
   components:
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
@@ -202,15 +202,15 @@
     layoutId: AirlockEngineering
   - type: ContainerFill
     containers:
-      board: [ DoorElectronicsSyndicateTechnitian ]
+      board: [ DoorElectronicsSyndicateTechnician ]
 
 - type: entity
   parent: DoorElectronics
-  id: DoorElectronicsSyndicateTechnitian
-  suffix: 2S2C, SyndicateTechnitian, Locked
+  id: DoorElectronicsSyndicateTechnician
+  suffix: 2S2C, SyndicateTechnician, Locked
   components:
   - type: AccessReader
-    access: [["SyndicateTechnitian"]]
+    access: [["SyndicateTechnician"]]
 
 
 - type: entity

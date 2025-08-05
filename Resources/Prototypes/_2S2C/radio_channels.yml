@@ -13,6 +13,8 @@
   color: "#8c121c"
 
 
+# TODO2S2C - make duplicate keycodes work
+
 # - type: radioChannel
 #   id: NanotrasenCommand
 #   name: NT Command

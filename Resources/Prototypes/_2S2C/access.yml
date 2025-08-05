@@ -1,10 +1,10 @@
 - type: accessLevel
-  id: NanotrasenCaptain
+  id: NanotrasenCommand
   name: NT Captain
 
 - type: accessLevel
-  id: SyndicateCaptain
-  name: Syndicate Captain
+  id: SyndicateCommand
+  name: Syndicate Command
 
 
 - type: accessLevel
