@@ -1,0 +1,98 @@
+- type: job
+  id: NTJanitor
+  name: job-name-nt-janitor
+  description: job-description-janitor
+  playTimeTracker: JobNTJanitor
+  startingGear: JanitorGear
+  icon: "JobIconJanitor"
+#  supervisors: job-supervisors-hop
+  access:
+  - NanotrasenService
+  - NanotrasenCrew
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: GarbageDay
+    prototype: WeaponRevolverInspector
+
+#- type: startingGear
+#  id: JanitorGear
+#  equipment:
+#    shoes: ClothingShoesGaloshes
+#    id: JanitorPDA
+#    ears: ClothingHeadsetService
+#    belt: ClothingBeltJanitorFilled
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: startingGear
+#  id: JanitorMaidGear
+#  equipment:
+#    jumpsuit: ClothingUniformJumpskirtJanimaid
+#    id: JanitorPDA
+#    gloves: ClothingHandsGlovesJanitor
+#    head: ClothingHeadHatCatEars
+#    ears: ClothingHeadsetService
+#    belt: ClothingBeltJanitorFilled
+
+#- type: chameleonOutfit
+#  id: JanitorChameleonOutfit
+#  job: Janitor
+#  equipment:
+#    head: ClothingHeadHatPurplesoft
+#    eyes: ClothingEyesGlassesCheapSunglasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckScarfStripedPurple
+#    outerClothing: ClothingOuterWinterJani
+#    gloves: ClothingHandsGlovesJanitor
+
+
+
+
+- type: job
+  id: SyndicateJanitor
+  name: job-name-syndicate-janitor
+  description: job-description-janitor
+  playTimeTracker: JobSyndicateJanitor
+  startingGear: JanitorGear
+  icon: "JobIconJanitor"
+#  supervisors: job-supervisors-hop
+  access:
+  - SyndicateService
+  - SyndicateCrew
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: GarbageDay
+    prototype: WeaponRevolverInspector
+
+#- type: startingGear
+#  id: JanitorGear
+#  equipment:
+#    shoes: ClothingShoesGaloshes
+#    id: JanitorPDA
+#    ears: ClothingHeadsetService
+#    belt: ClothingBeltJanitorFilled
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: startingGear
+#  id: JanitorMaidGear
+#  equipment:
+#    jumpsuit: ClothingUniformJumpskirtJanimaid
+#    id: JanitorPDA
+#    gloves: ClothingHandsGlovesJanitor
+#    head: ClothingHeadHatCatEars
+#    ears: ClothingHeadsetService
+#    belt: ClothingBeltJanitorFilled
+
+#- type: chameleonOutfit
+#  id: JanitorChameleonOutfit
+#  job: Janitor
+#  equipment:
+#    head: ClothingHeadHatPurplesoft
+#    eyes: ClothingEyesGlassesCheapSunglasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckScarfStripedPurple
+#    outerClothing: ClothingOuterWinterJani
+#    gloves: ClothingHandsGlovesJanitor

@@ -1,0 +1,68 @@
+- type: job
+  id: NTService
+  name: job-name-nt-service
+  description: job-description-serviceworker #add description
+  playTimeTracker: JobNTServiceWorker
+  startingGear: ServiceWorkerGear
+  icon: "JobIconServiceWorker"
+#  supervisors: job-supervisors-service
+  access:
+  - NanotrasenCrew
+  - NanotrasenService
+
+#- type: startingGear
+#  id: ServiceWorkerGear
+#  equipment:
+#    shoes: ClothingShoesColorBlack
+#    id: ServiceWorkerPDA
+#    ears: ClothingHeadsetService
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: ServiceWorkerChameleonOutfit
+#  job: ServiceWorker
+#  equipment:
+#    head: ClothingHeadHatBowlerHat
+#    eyes: ClothingEyesGlassesSunglasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckScarfStripedBrown
+#    outerClothing: ClothingOuterVest
+#    gloves: ClothingHandsGlovesColorBlack
+
+
+
+
+- type: job
+  id: SyndicateService
+  name: job-name-syndicate-service
+  description: job-description-serviceworker #add description
+  playTimeTracker: JobSyndicateServiceWorker
+  startingGear: ServiceWorkerGear
+  icon: "JobIconServiceWorker"
+#  supervisors: job-supervisors-service
+  access:
+  - SyndicateCrew
+  - SyndicateService
+
+#- type: startingGear
+#  id: ServiceWorkerGear
+#  equipment:
+#    shoes: ClothingShoesColorBlack
+#    id: ServiceWorkerPDA
+#    ears: ClothingHeadsetService
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: ServiceWorkerChameleonOutfit
+#  job: ServiceWorker
+#  equipment:
+#    head: ClothingHeadHatBowlerHat
+#    eyes: ClothingEyesGlassesSunglasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckScarfStripedBrown
+#    outerClothing: ClothingOuterVest
+#    gloves: ClothingHandsGlovesColorBlack

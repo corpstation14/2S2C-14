@@ -1,0 +1,76 @@
+- type: job
+  id: NTSupplier
+  name: job-name-nt-supplier
+  description: job-description-cargotech #add description
+  playTimeTracker: JobNTSupplier
+  startingGear: CargoTechGear
+  icon: "JobIconCargoTechnician"
+#  supervisors: job-supervisors-qm
+  access:
+  - NanotrasenCrew
+  - NanotrasenSupplier
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: BoxingDay
+    prototype: BoxCardboard
+
+#- type: startingGear
+#  id: CargoTechGear
+#  equipment:
+#    id: CargoPDA
+#    ears: ClothingHeadsetCargo
+#    pocket1: AppraisalTool
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: CargoTechnicianChameleonOutfit
+#  job: CargoTechnician
+#  equipment:
+#    head: ClothingHeadHatCargosoft
+#    eyes: ClothingEyesGlassesCheapSunglasses
+#    mask: ClothingMaskBreath
+#    outerClothing: ClothingOuterWinterCargo
+#    neck: ClothingNeckScarfStripedBrown
+#    gloves: ClothingHandsGlovesFingerless
+
+
+
+
+- type: job
+  id: SyndicateSupplier
+  name: job-name-syndicate-supplier
+  description: job-description-cargotech #add description
+  playTimeTracker: JobSyndicateSupplier
+  startingGear: CargoTechGear
+  icon: "JobIconCargoTechnician"
+#  supervisors: job-supervisors-qm
+  access:
+  - SyndicateCrew
+  - SyndicateSupplier
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: BoxingDay
+    prototype: BoxCardboard
+
+#- type: startingGear
+#  id: CargoTechGear
+#  equipment:
+#    id: CargoPDA
+#    ears: ClothingHeadsetCargo
+#    pocket1: AppraisalTool
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: CargoTechnicianChameleonOutfit
+#  job: CargoTechnician
+#  equipment:
+#    head: ClothingHeadHatCargosoft
+#    eyes: ClothingEyesGlassesCheapSunglasses
+#    mask: ClothingMaskBreath
+#    outerClothing: ClothingOuterWinterCargo
+#    neck: ClothingNeckScarfStripedBrown
+#    gloves: ClothingHandsGlovesFingerless

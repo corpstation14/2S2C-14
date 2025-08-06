@@ -1,0 +1,100 @@
+- type: job
+  id: NTChiefOfOperations
+  name: job-name-nt-co
+  description: job-description-hos #add description
+  playTimeTracker: JobNTChiefOfOperations
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobWarden
+#      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 14400 # 4 hours
+  weight: 10
+  startingGear: HoSGear
+  icon: "JobIconHeadOfSecurity"
+#  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - NanotrasenCommand
+  - NanotrasenCrew
+  - NanotrasenOperative
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+#- type: startingGear
+#  id: HoSGear
+#  equipment:
+#    eyes: ClothingEyesGlassesSecurity
+#    id: HoSPDA
+#    gloves: ClothingHandsGlovesCombat
+#    ears: ClothingHeadsetAltSecurity
+#    pocket1: WeaponPistolMk58
+#  storage:
+#    back:
+#    - Flash
+#    - MagazinePistol
+
+#- type: chameleonOutfit
+#  id: HeadOfSecurityChameleonOutfit
+#  job: HeadOfSecurity
+#  hasMindShield: true
+#  equipment:
+#    mask: ClothingMaskGasSecurity
+#    neck: ClothingNeckCloakHos
+
+
+
+
+- type: job
+  id: SyndicateChiefOfOperations
+  name: job-name-syndicate-co
+  description: job-description-hos #add description
+  playTimeTracker: JobSyndicateChiefOfOperations
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobWarden
+#      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 14400 # 4 hours
+  weight: 10
+  startingGear: HoSGear
+  icon: "JobIconHeadOfSecurity"
+#  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - SyndicateCommand
+  - SyndicateCrew
+  - SyndicateOperative
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+#- type: startingGear
+#  id: HoSGear
+#  equipment:
+#    eyes: ClothingEyesGlassesSecurity
+#    id: HoSPDA
+#    gloves: ClothingHandsGlovesCombat
+#    ears: ClothingHeadsetAltSecurity
+#    pocket1: WeaponPistolMk58
+#  storage:
+#    back:
+#    - Flash
+#    - MagazinePistol
+
+#- type: chameleonOutfit
+#  id: HeadOfSecurityChameleonOutfit
+#  job: HeadOfSecurity
+#  hasMindShield: true
+#  equipment:
+#    mask: ClothingMaskGasSecurity
+#    neck: ClothingNeckCloakHos

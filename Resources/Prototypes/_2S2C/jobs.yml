@@ -125,24 +125,24 @@
 
 # Technician variants
 - type: entity
-  id: SpawnPointNTTecnhician
+  id: SpawnPointNTTechnician
   parent: SpawnPointJobBase
-  name: tecnhician NT
+  name: technician NT
   components:
   - type: SpawnPoint
-    job_id: NTTecnhician
+    job_id: NTTechnician
   - type: Sprite
     layers:
     - state: blue
     - state: engineer
 
 - type: entity
-  id: SpawnPointSyndicateTecnhician
+  id: SpawnPointSyndicateTechnician
   parent: SpawnPointJobBase
-  name: tecnhician S
+  name: technician S
   components:
   - type: SpawnPoint
-    job_id: SyndicateTecnhician
+    job_id: SyndicateTechnician
   - type: Sprite
     layers:
     - state: red

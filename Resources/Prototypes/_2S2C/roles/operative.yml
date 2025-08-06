@@ -1,0 +1,90 @@
+- type: job
+  id: NTOperative
+  name: job-name-nt-operative
+  description: job-description-security #add description
+  playTimeTracker: JobNTOperative
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobWarden
+#      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 14400 # 4 hours
+  startingGear: SecurityOfficerGear
+  icon: "JobIconSecurityOfficer"
+#  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - NanotrasenCrew
+  - NanotrasenOperative
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+#- type: startingGear
+#  id: SecurityOfficerGear
+#  equipment:
+#    eyes: ClothingEyesGlassesSecurity
+#    ears: ClothingHeadsetSecurity
+#    pocket1: WeaponPistolMk58
+#  storage:
+#    back:
+#    - Flash
+#    - MagazinePistol
+
+#- type: chameleonOutfit
+#  id: SecurityOfficerChameleonOutfit
+#  job: SecurityOfficer
+#  hasMindShield: true
+#  equipment:
+#    head: ClothingHeadHatBeretSecurity
+#    mask: ClothingMaskGasSecurity
+#    neck: Dinkystar
+#    gloves: ClothingHandsGlovesColorBlack
+
+
+
+
+- type: job
+  id: SyndicateOperative
+  name: job-name-syndicate-operative
+  description: job-description-security #add description
+  playTimeTracker: JobSyndicateOperative
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobWarden
+#      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 14400 # 4 hours
+  startingGear: SecurityOfficerGear
+  icon: "JobIconSecurityOfficer"
+#  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - SyndicateCrew
+  - SyndicateOperative
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+#- type: startingGear
+#  id: SecurityOfficerGear
+#  equipment:
+#    eyes: ClothingEyesGlassesSecurity
+#    ears: ClothingHeadsetSecurity
+#    pocket1: WeaponPistolMk58
+#  storage:
+#    back:
+#    - Flash
+#    - MagazinePistol
+
+#- type: chameleonOutfit
+#  id: SecurityOfficerChameleonOutfit
+#  job: SecurityOfficer
+#  hasMindShield: true
+#  equipment:
+#    head: ClothingHeadHatBeretSecurity
+#    mask: ClothingMaskGasSecurity
+#    neck: Dinkystar
+#    gloves: ClothingHandsGlovesColorBlack
