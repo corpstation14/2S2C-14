@@ -1,0 +1,312 @@
+# Captain variants
+- type: entity
+  id: SpawnPointNTCaptain
+  parent: SpawnPointJobBase
+  name: captain NT
+  components:
+  - type: SpawnPoint
+    job_id: NTCaptain
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: captain
+
+- type: entity
+  id: SpawnPointSyndicateCaptain
+  parent: SpawnPointJobBase
+  name: captain S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateCaptain
+  - type: Sprite
+    layers:
+    - state: red
+    - state: captain
+
+# Chief of Operations variants
+- type: entity
+  id: SpawnPointNTChiefOfOperations
+  parent: SpawnPointJobBase
+  name: chiefofoperations NT
+  components:
+  - type: SpawnPoint
+    job_id: NTChiefOfOperations
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: hos
+
+- type: entity
+  id: SpawnPointSyndicateChiefOfOperations
+  parent: SpawnPointJobBase
+  name: chiefofoperations S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateChiefOfOperations
+  - type: Sprite
+    layers:
+    - state: red
+    - state: hos
+
+# Chief Technician variants
+- type: entity
+  id: SpawnPointNTChiefTechnician
+  parent: SpawnPointJobBase
+  name: chieftechnician NT
+  components:
+  - type: SpawnPoint
+    job_id: NTChiefTechnician
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: ce
+
+- type: entity
+  id: SpawnPointSyndicateChiefTechnician
+  parent: SpawnPointJobBase
+  name: chieftechnician S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateChiefTechnician
+  - type: Sprite
+    layers:
+    - state: red
+    - state: ce
+
+# Supplier variants
+- type: entity
+  id: SpawnPointNTSupplier
+  parent: SpawnPointJobBase
+  name: supplier NT
+  components:
+  - type: SpawnPoint
+    job_id: NTSupplier
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: cargo_tech
+
+- type: entity
+  id: SpawnPointSyndicateSupplier
+  parent: SpawnPointJobBase
+  name: supplier S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateSupplier
+  - type: Sprite
+    layers:
+    - state: red
+    - state: cargo_tech
+
+# Operative variants 
+- type: entity
+  id: SpawnPointNTOperative
+  parent: SpawnPointJobBase
+  name: operative NT
+  components:
+  - type: SpawnPoint
+    job_id: NTOperative
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: security_officer
+
+- type: entity
+  id: SpawnPointSyndicateOperative
+  parent: SpawnPointJobBase
+  name: operative S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateOperative
+  - type: Sprite
+    layers:
+    - state: red
+    - state: security_officer
+
+# Technician variants
+- type: entity
+  id: SpawnPointNTTechnician
+  parent: SpawnPointJobBase
+  name: technician NT
+  components:
+  - type: SpawnPoint
+    job_id: NTTechnician
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: engineer
+
+- type: entity
+  id: SpawnPointSyndicateTechnician
+  parent: SpawnPointJobBase
+  name: technician S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateTechnician
+  - type: Sprite
+    layers:
+    - state: red
+    - state: engineer
+
+# Service variants
+- type: entity
+  id: SpawnPointNTService
+  parent: SpawnPointJobBase
+  name: service NT
+  components:
+  - type: SpawnPoint
+    job_id: NTService
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: serviceworker
+
+- type: entity
+  id: SpawnPointSyndicateService
+  parent: SpawnPointJobBase
+  name: service S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateService
+  - type: Sprite
+    layers:
+    - state: red
+    - state: serviceworker
+
+# Janitor variants
+- type: entity
+  id: SpawnPointNTJanitor
+  parent: SpawnPointJobBase
+  name: janitor NT
+  components:
+  - type: SpawnPoint
+    job_id: NTJanitor
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: janitor
+
+- type: entity
+  id: SpawnPointSyndicateJanitor
+  parent: SpawnPointJobBase
+  name: janitor S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateJanitor
+  - type: Sprite
+    layers:
+    - state: red
+    - state: janitor
+
+# Clown variants
+- type: entity
+  id: SpawnPointNTClown
+  parent: SpawnPointJobBase
+  name: clown NT
+  components:
+  - type: SpawnPoint
+    job_id: NTClown
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: clown
+
+- type: entity
+  id: SpawnPointSyndicateClown
+  parent: SpawnPointJobBase
+  name: clown S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateClown
+  - type: Sprite
+    layers:
+    - state: red
+    - state: clown
+
+# Mime variants
+- type: entity
+  id: SpawnPointNTMime
+  parent: SpawnPointJobBase
+  name: mime NT
+  components:
+  - type: SpawnPoint
+    job_id: NTMime
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: mime
+
+- type: entity
+  id: SpawnPointSyndicateMime
+  parent: SpawnPointJobBase
+  name: mime S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateMime
+  - type: Sprite
+    layers:
+    - state: red
+    - state: mime
+
+# Musician variants
+- type: entity
+  id: SpawnPointNTMusician
+  parent: SpawnPointJobBase
+  name: musician NT
+  components:
+  - type: SpawnPoint
+    job_id: NTMusician
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: musician
+
+- type: entity
+  id: SpawnPointSyndicateMusician
+  parent: SpawnPointJobBase
+  name: musician S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateMusician
+  - type: Sprite
+    layers:
+    - state: red
+    - state: musician
+
+# Assistant variants
+- type: entity
+  id: SpawnPointNTAssistant
+  parent: SpawnPointJobBase
+  name: assistant NT
+  components:
+  - type: SpawnPoint
+    job_id: NTAssistant
+  - type: Sprite
+    layers:
+    - state: blue
+    - state: passenger
+
+- type: entity
+  id: SpawnPointSyndicateAssistant
+  parent: SpawnPointJobBase
+  name: assistant S
+  components:
+  - type: SpawnPoint
+    job_id: SyndicateAssistant
+  - type: Sprite
+    layers:
+    - state: red
+    - state: passenger
+
+# Trade station
+- type: entity
+  id: SpawnPointTradeStationAgent
+  parent: SpawnPointJobBase
+  name: tradestationagent
+  components:
+  - type: SpawnPoint
+    job_id: TradeStationAgent
+  - type: Sprite
+    layers:
+    - state: green
+    - state: cargo_tech

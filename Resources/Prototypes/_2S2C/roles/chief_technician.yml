@@ -1,0 +1,104 @@
+- type: job
+  id: NTChiefTechnician
+  name: job-name-nt-ct
+  description: job-description-ce #add description
+  playTimeTracker: JobNTChiefTechnician
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobWarden
+#      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 14400 # 4 hours
+  weight: 10
+  startingGear: ChiefEngineerGear
+  icon: "JobIconChiefEngineer"
+#  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - NanotrasenCommand
+  - NanotrasenCrew
+  - NanotrasenTechnician
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+#- type: startingGear
+#  id: ChiefEngineerGear
+#  equipment:
+#    id: CEPDA
+#    eyes: ClothingEyesGlassesMeson
+#    ears: ClothingHeadsetCE
+#    belt: ClothingBeltUtilityEngineering
+#  storage:
+#    back:
+#    - Flash
+
+#- type: chameleonOutfit
+#  id: ChiefEngineerChameleonOutfit
+#  job: ChiefEngineer
+#  hasMindShield: true
+#  equipment:
+#    head: ClothingHeadHatBeretEngineering
+#    mask: ClothingMaskBreath
+#    neck: ClothingNeckCloakCe
+#    outerClothing: ClothingOuterWinterCE
+#    gloves: ClothingHandsGlovesColorYellow
+#    shoes: ClothingShoesBootsMagAdv
+
+
+
+
+- type: job
+  id: SyndicateChiefTechnician
+  name: job-name-syndicate-ct
+  description: job-description-ce #add description
+  playTimeTracker: JobSyndicateChiefTechnician
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobWarden
+#      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 14400 # 4 hours
+  weight: 10
+  startingGear: ChiefEngineerGear
+  icon: "JobIconChiefEngineer"
+#  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - SyndicateCommand
+  - SyndicateCrew
+  - SyndicateTechnician
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+#- type: startingGear
+#  id: ChiefEngineerGear
+#  equipment:
+#    id: CEPDA
+#    eyes: ClothingEyesGlassesMeson
+#    ears: ClothingHeadsetCE
+#    belt: ClothingBeltUtilityEngineering
+#  storage:
+#    back:
+#    - Flash
+
+#- type: chameleonOutfit
+#  id: ChiefEngineerChameleonOutfit
+#  job: ChiefEngineer
+#  hasMindShield: true
+#  equipment:
+#    head: ClothingHeadHatBeretEngineering
+#    mask: ClothingMaskBreath
+#    neck: ClothingNeckCloakCe
+#    outerClothing: ClothingOuterWinterCE
+#    gloves: ClothingHandsGlovesColorYellow
+#    shoes: ClothingShoesBootsMagAdv

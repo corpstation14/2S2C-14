@@ -1,0 +1,76 @@
+- type: job
+  id: NTMusician
+  name: job-name-nt-musician
+  description: job-description-musician
+  playTimeTracker: JobNTMusician
+  startingGear: MusicianGear
+  icon: "JobIconMusician"
+#  supervisors: job-supervisors-hire
+  access:
+  - NanotrasenCrew
+  - NanotrasenService
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: MikuDay
+    prototype: BoxPerformer
+
+#- type: startingGear
+#  id: MusicianGear
+#  equipment:
+#    eyes: ClothingEyesGlassesSunglasses
+#    shoes: ClothingShoesBootsLaceup
+#    id: MusicianPDA
+#    ears: ClothingHeadsetService
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: MusicianChameleonOutfit
+#  job: Musician
+#  equipment:
+#    head: ClothingHeadHatTophat
+#    mask: ClothingMaskBreath
+#    neck: ClothingMultipleHeadphones
+#    outerClothing: ClothingOuterWinterMusician
+#    gloves: ClothingHandsGlovesColorBlack
+
+
+
+
+- type: job
+  id: SyndicateMusician
+  name: job-name-syndicate-musician
+  description: job-description-musician
+  playTimeTracker: JobSyndicateMusician
+  startingGear: MusicianGear
+  icon: "JobIconMusician"
+#  supervisors: job-supervisors-hire
+  access:
+  - SyndicateCrew
+  - SyndicateService
+  special:
+  - !type:GiveItemOnHolidaySpecial
+    holiday: MikuDay
+    prototype: BoxPerformer
+
+#- type: startingGear
+#  id: MusicianGear
+#  equipment:
+#    eyes: ClothingEyesGlassesSunglasses
+#    shoes: ClothingShoesBootsLaceup
+#    id: MusicianPDA
+#    ears: ClothingHeadsetService
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: MusicianChameleonOutfit
+#  job: Musician
+#  equipment:
+#    head: ClothingHeadHatTophat
+#    mask: ClothingMaskBreath
+#    neck: ClothingMultipleHeadphones
+#    outerClothing: ClothingOuterWinterMusician
+#    gloves: ClothingHandsGlovesColorBlack

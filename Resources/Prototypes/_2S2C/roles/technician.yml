@@ -1,0 +1,82 @@
+- type: job
+  id: NTTechnician
+  name: job-name-nt-technician
+  description: job-description-engineer #add description
+  playTimeTracker: JobNTTechnician
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobWarden
+#      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 14400 # 4 hours
+  startingGear: StationEngineerGear
+  icon: "JobIconStationEngineer"
+#  supervisors: job-supervisors-captain
+  access:
+  - NanotrasenCrew
+  - NanotrasenTechnician
+
+#- type: startingGear
+#  id: StationEngineerGear
+#  equipment:
+#    eyes: ClothingEyesGlassesMeson
+#    belt: ClothingBeltUtilityEngineering
+#    ears: ClothingHeadsetEngineering
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: StationEngineerChameleonOutfit
+#  job: StationEngineer
+#  equipment:
+#    head: ClothingHeadHatHardhatYellow
+#    mask: ClothingMaskBreath
+#    neck: ClothingNeckScarfStripedOrange
+#    outerClothing: ClothingOuterWinterEngi
+#    gloves: ClothingHandsGlovesColorYellow
+#    shoes: ClothingShoesBootsMag
+
+
+
+
+- type: job
+  id: SyndicateTechnician
+  name: job-name-syndicate-technician
+  description: job-description-engineer #add description
+  playTimeTracker: JobSyndicateTechnician
+#  requirements:
+#    - !type:RoleTimeRequirement
+#      role: JobWarden
+#      time: 3600 #1 hr
+#    - !type:DepartmentTimeRequirement
+#      department: Engineering
+#      time: 14400 # 4 hours
+  startingGear: StationEngineerGear
+  icon: "JobIconStationEngineer"
+#  supervisors: job-supervisors-captain
+  access:
+  - SyndicateCrew
+  - SyndicateTechnician
+
+#- type: startingGear
+#  id: StationEngineerGear
+#  equipment:
+#    eyes: ClothingEyesGlassesMeson
+#    belt: ClothingBeltUtilityEngineering
+#    ears: ClothingHeadsetEngineering
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: StationEngineerChameleonOutfit
+#  job: StationEngineer
+#  equipment:
+#    head: ClothingHeadHatHardhatYellow
+#    mask: ClothingMaskBreath
+#    neck: ClothingNeckScarfStripedOrange
+#    outerClothing: ClothingOuterWinterEngi
+#    gloves: ClothingHandsGlovesColorYellow
+#    shoes: ClothingShoesBootsMag

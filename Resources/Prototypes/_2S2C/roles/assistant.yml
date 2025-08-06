@@ -1,0 +1,64 @@
+- type: job
+  id: NTAssistant
+  name: job-name-nt-assistant
+  description: job-description-passenger #change description
+  playTimeTracker: JobNTAssistant
+  startingGear: PassengerGear
+  icon: "JobIconPassenger"
+#  supervisors: job-supervisors-everyone
+  access:
+  - NanotrasenCrew
+
+#- type: startingGear
+#  id: PassengerGear
+#  equipment:
+#    id: PassengerPDA
+#    ears: ClothingHeadsetGrey
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: PassengerChameleonOutfit
+#  job: Passenger
+#  equipment:
+#    head: ClothingHeadHatWelding
+#    eyes: ClothingEyesGlassesCheapSunglasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckMantle
+#    outerClothing: ClothingOuterWinterCoat
+#    gloves: ClothingHandsGlovesColorYellowBudget
+
+
+
+
+- type: job
+  id: SyndicateAssistant
+  name: job-name-syndicate-assistant
+  description: job-description-passenger #change description
+  playTimeTracker: JobSyndicateAssistant
+  startingGear: PassengerGear
+  icon: "JobIconPassenger"
+#  supervisors: job-supervisors-everyone
+  access:
+  - SyndicateCrew
+
+#- type: startingGear
+#  id: PassengerGear
+#  equipment:
+#    id: PassengerPDA
+#    ears: ClothingHeadsetGrey
+#  #storage:
+#    #back:
+#    #- Stuff
+
+#- type: chameleonOutfit
+#  id: PassengerChameleonOutfit
+#  job: Passenger
+#  equipment:
+#    head: ClothingHeadHatWelding
+#    eyes: ClothingEyesGlassesCheapSunglasses
+#    mask: ClothingMaskGas
+#    neck: ClothingNeckMantle
+#    outerClothing: ClothingOuterWinterCoat
+#    gloves: ClothingHandsGlovesColorYellowBudget

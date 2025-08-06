@@ -1,0 +1,47 @@
+#temp setup
+- type: department
+  id: NTstation
+  name: department-NT
+  description: department-Cargo-description #add description
+  color: "#A46106"
+  roles:
+  - NTCaptain
+  - NTChiefOfOperations
+  - NTChiefTechnician
+  - NTSupplier
+  - NTOperative
+  - NTTechnician
+  - NTService
+  - NTJanitor
+  - NTClown
+  - NTMime
+  - NTMusician
+  - NTAssistant
+
+#temp setup
+- type: department
+  id: Syndicatestation
+  name: department-Syndicate
+  description: department-Cargo-description #add description
+  color: "#A46106"
+  roles:
+  - SyndicateCaptain
+  - SyndicateChiefOfOperations
+  - SyndicateChiefTechnician
+  - SyndicateSupplier
+  - SyndicateOperative
+  - SyndicateTechnician
+  - SyndicateService
+  - SyndicateJanitor
+  - SyndicateClown
+  - SyndicateMime
+  - SyndicateMusician
+  - SyndicateAssistant
+
+- type: department
+  id: ATSstation
+  name: department-ATS
+  description: department-Cargo-description #add description
+  color: "#A46106"
+  roles:
+  - TradeStationAgent
