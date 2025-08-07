@@ -24,6 +24,6 @@ job-name-nt-technician = NT- Technician
 job-name-syndicate-technician = S- Technician
 job-name-tsa = Trade Station Agent
 
-department-NT = NT-temp
-department-Syndicate = S-temp
+department-NT = NT- temp please fix later so you cant pick station!!!
+department-Syndicate = S- temp please fix later so you cant pick station!!!
 department-ATS = Trade Station
