@@ -3,14 +3,14 @@
   name: job-name-nt-assistant
   description: job-description-passenger #change description
   playTimeTracker: JobNTAssistant
-  startingGear: PassengerGear
+  startingGear: PassengerGearNT
   icon: "JobIconPassenger"
 #  supervisors: job-supervisors-everyone
   access:
   - NanotrasenCrew
 
 #- type: startingGear
-#  id: PassengerGear
+#  id: PassengerGearNT
 #  equipment:
 #    id: PassengerPDA
 #    ears: ClothingHeadsetGrey
@@ -37,14 +37,14 @@
   name: job-name-syndicate-assistant
   description: job-description-passenger #change description
   playTimeTracker: JobSyndicateAssistant
-  startingGear: PassengerGear
+  startingGear: PassengerGearSyndicate
   icon: "JobIconPassenger"
 #  supervisors: job-supervisors-everyone
   access:
   - SyndicateCrew
 
 #- type: startingGear
-#  id: PassengerGear
+#  id: PassengerGearSyndicate
 #  equipment:
 #    id: PassengerPDA
 #    ears: ClothingHeadsetGrey

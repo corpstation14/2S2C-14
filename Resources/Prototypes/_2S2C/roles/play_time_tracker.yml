@@ -1,0 +1,86 @@
+- type: playTimeTracker
+  id: JobNTCaptain
+
+- type: playTimeTracker
+  id: JobSyndicateCaptain
+
+
+- type: playTimeTracker
+  id: JobNTChiefOfOperations
+
+- type: playTimeTracker
+  id: JobSyndicateChiefOfOperations
+
+
+- type: playTimeTracker
+  id: JobNTChiefTechnician
+
+- type: playTimeTracker
+  id: JobSyndicateChiefTechnician
+
+
+- type: playTimeTracker
+  id: JobNTClown
+
+- type: playTimeTracker
+  id: JobSyndicateClown
+
+
+- type: playTimeTracker
+  id: JobNTJanitor
+
+- type: playTimeTracker
+  id: JobSyndicateJanitor
+
+
+- type: playTimeTracker
+  id: JobNTMime
+
+- type: playTimeTracker
+  id: JobSyndicateMime
+
+
+- type: playTimeTracker
+  id: JobNTMusician
+
+- type: playTimeTracker
+  id: JobSyndicateMusician
+
+
+- type: playTimeTracker
+  id: JobNTOperative
+
+- type: playTimeTracker
+  id: JobSyndicateOperative
+
+
+- type: playTimeTracker
+  id: JobNTServiceWorker
+
+- type: playTimeTracker
+  id: JobSyndicateServiceWorker
+
+
+- type: playTimeTracker
+  id: JobNTSupplier
+
+- type: playTimeTracker
+  id: JobSyndicateSupplier
+
+
+- type: playTimeTracker
+  id: JobNTTechnician
+
+- type: playTimeTracker
+  id: JobSyndicateTechnician
+
+
+- type: playTimeTracker
+  id: JobNTAssistant
+
+- type: playTimeTracker
+  id: JobSyndicateAssistant
+
+
+- type: playTimeTracker
+  id: JobTradeStationAgent

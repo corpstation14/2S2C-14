@@ -1,0 +1,362 @@
+# Captain variants
+- type: roleLoadout
+  id: JobNTCaptain
+  groups:
+  - NTCaptainHead
+  - NTCaptainNeck
+  - NTCaptainJumpsuit
+  - NTCaptainBackpack
+  - NTCaptainOuterClothing
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSyndicateCaptain
+  groups:
+  - SyndicateCaptainHead
+  - SyndicateCaptainNeck
+  - SyndicateCaptainJumpsuit
+  - SyndicateCaptainBackpack
+  - SyndicateCaptainOuterClothing
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Chief of Operations variants
+- type: roleLoadout
+  id: JobNTChiefOfOperations
+  groups:
+  - HeadofSecurityHead
+  - HeadofSecurityNeck
+  - HeadofSecurityJumpsuit
+  - SecurityBackpack
+  - SecurityBelt
+  - HeadofSecurityOuterClothing
+  - SecurityShoes
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobSyndicateChiefOfOperations
+  groups:
+  - HeadofSecurityHead
+  - HeadofSecurityNeck
+  - HeadofSecurityJumpsuit
+  - SecurityBackpack
+  - SecurityBelt
+  - HeadofSecurityOuterClothing
+  - SecurityShoes
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+
+# Chief Technician variants
+- type: roleLoadout
+  id: JobNTChiefTechnician
+  groups:
+  - GroupTankHarness
+  - ChiefEngineerHead
+  - ChiefEngineerJumpsuit
+  - StationEngineerBackpack
+  - ChiefEngineerNeck
+  - ChiefEngineerOuterClothing
+  - ChiefEngineerShoes
+  - SurvivalExtended
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSyndicateChiefTechnician
+  groups:
+  - GroupTankHarness
+  - ChiefEngineerHead
+  - ChiefEngineerJumpsuit
+  - StationEngineerBackpack
+  - ChiefEngineerNeck
+  - ChiefEngineerOuterClothing
+  - ChiefEngineerShoes
+  - SurvivalExtended
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Operative variants
+- type: roleLoadout
+  id: JobNTOperative
+  groups:
+  - SecurityHead
+  - SecurityJumpsuit
+  - SecurityBackpack
+  - SecurityOuterClothing
+  - SecurityShoes
+  - SecurityPDA
+  - SecurityBelt
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobSyndicateOperative
+  groups:
+  - SecurityHead
+  - SecurityJumpsuit
+  - SecurityBackpack
+  - SecurityOuterClothing
+  - SecurityShoes
+  - SecurityPDA
+  - SecurityBelt
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
+
+# Technician variants
+- type: roleLoadout
+  id: JobNTTechnician
+  groups:
+  - GroupTankHarness
+  - StationEngineerHead
+  - StationEngineerJumpsuit
+  - StationEngineerBackpack
+  - StationEngineerOuterClothing
+  - StationEngineerShoes
+  - StationEngineerID
+  - SurvivalExtended
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSyndicateTechnician
+  groups:
+  - GroupTankHarness
+  - StationEngineerHead
+  - StationEngineerJumpsuit
+  - StationEngineerBackpack
+  - StationEngineerOuterClothing
+  - StationEngineerShoes
+  - StationEngineerID
+  - SurvivalExtended
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Clown variants 
+- type: roleLoadout
+  id: JobNTClown
+  canCustomizeName: true
+  groups:
+  - GroupTankHarness
+  - ClownHead
+  - ClownJumpsuit
+  - ClownBackpack
+  - ClownOuterClothing
+  - ClownShoes
+  - Glasses
+  - SurvivalClown
+  - Trinkets
+
+- type: roleLoadout
+  id: JobSyndicateClown
+  canCustomizeName: true
+  groups:
+  - GroupTankHarness
+  - ClownHead
+  - ClownJumpsuit
+  - ClownBackpack
+  - ClownOuterClothing
+  - ClownShoes
+  - Glasses
+  - SurvivalClown
+  - Trinkets
+
+# Janitor variants
+- type: roleLoadout
+  id: JobNTJanitor
+  groups:
+  - GroupTankHarness
+  - JanitorHead
+  - JanitorJumpsuit
+  - JanitorGloves
+  - CommonBackpack
+  - JanitorOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - JanitorPlunger
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSyndicateJanitor
+  groups:
+  - GroupTankHarness
+  - JanitorHead
+  - JanitorJumpsuit
+  - JanitorGloves
+  - CommonBackpack
+  - JanitorOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - JanitorPlunger
+  - GroupSpeciesBreathTool
+
+# M I M E variants
+- type: roleLoadout
+  id: JobNTMime
+  canCustomizeName: true
+  groups:
+  - GroupTankHarness
+  - MimeHead
+  - MimeMask
+  - MimeJumpsuit
+  - MimeBackpack
+  - MimeOuterClothing
+  - MimeBelt
+  - Glasses
+  - SurvivalMime
+  - Trinkets
+
+- type: roleLoadout
+  id: JobSyndicateMime
+  canCustomizeName: true
+  groups:
+  - GroupTankHarness
+  - MimeHead
+  - MimeMask
+  - MimeJumpsuit
+  - MimeBackpack
+  - MimeOuterClothing
+  - MimeBelt
+  - Glasses
+  - SurvivalMime
+  - Trinkets
+
+# Musician variants
+- type: roleLoadout
+  id: JobNTMusician
+  groups:
+  - GroupTankHarness
+  - MusicianJumpsuit
+  - CommonBackpack
+  - MusicianOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - Instruments
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSyndicateMusician
+  groups:
+  - GroupTankHarness
+  - MusicianJumpsuit
+  - CommonBackpack
+  - MusicianOuterClothing
+  - Glasses
+  - Survival
+  - Trinkets
+  - Instruments
+  - GroupSpeciesBreathTool
+
+# Service variants
+- type: roleLoadout
+  id: JobNTServiceWorker
+  groups:
+  - GroupTankHarness
+  - BartenderJumpsuit
+  - CommonBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSyndicateServiceWorker
+  groups:
+  - GroupTankHarness
+  - BartenderJumpsuit
+  - CommonBackpack
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Supply variants
+- type: roleLoadout
+  id: JobNTSupplier
+  groups:
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSyndicateSupplier
+  groups:
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Assistant variants
+- type: roleLoadout
+  id: JobNTAssistant
+  groups:
+  - GroupTankHarness
+  - PassengerJumpsuit
+  - CommonBackpack
+  - PassengerNeck
+  - PassengerFace
+  - PassengerGloves
+  - PassengerOuterClothing
+  - PassengerShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+- type: roleLoadout
+  id: JobSyndicateAssistant
+  groups:
+  - GroupTankHarness
+  - PassengerJumpsuit
+  - CommonBackpack
+  - PassengerNeck
+  - PassengerFace
+  - PassengerGloves
+  - PassengerOuterClothing
+  - PassengerShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# TSA variants
+- type: roleLoadout
+  id: JobTradeStationAgent
+  groups:
+  - GroupTankHarness
+  - CargoTechnicianHead
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianBackpack
+  - CargoTechnicianOuterClothing
+  - CargoTechnicianShoes
+  - Glasses
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
