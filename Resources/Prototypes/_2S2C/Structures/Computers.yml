@@ -1,0 +1,31 @@
+
+- type: entity
+  parent: ComputerComms
+  id: DiplomaticStatusComputer
+  name: diplomatic status computer
+  description: A computer used to declare diplomatic status with other companies.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: comm_syndie
+    - map: ["computerLayerKeys"]
+      state: syndie_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: generic_panel_open
+  - type: AccessReader
+    access: [[ "NanotrasenCommand" ], [ "SyndicateCommand" ]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-sent-by
+    canShuttle: false
+#    global: true #announce to everyone they're about to fuck shit up
+#  - type: Computer
+#    board: SyndicateCommsComputerCircuitboard
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#f71713"

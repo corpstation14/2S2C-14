@@ -1,0 +1,51 @@
+- type: gameMap
+  id: 2S2Cmap
+  mapName: '2S2C test'
+  mapPath: /Maps/2S2Cmap.yml
+  minPlayers: 0
+  maxPlayers: 80
+  stations:
+    2S2Cmap:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} 2S2C test {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency_rod.yml
+        - type: StationJobs
+          availableJobs: # 49 jobs total w/o latejoins & interns, 51 jobs total w/ latejoins & interns
+            #command (6)
+            NTCaptain: [ 1, 1 ]
+            SyndicateCaptain: [ 1, 1 ]
+            NTChiefOfOperations: [ 1, 1 ]
+            SyndicateChiefOfOperations: [ 1, 1 ]
+            NTChiefTechnician: [ 1, 1 ]
+            SyndicateChiefTechnician: [ 1, 1 ]
+            #Operations (12)
+            NTOperative: [ 6, 6 ]
+            SyndicateOperative: [ 6, 6 ]
+            #Technician (10)
+            NTTechnician: [ 5, 5 ]
+            SyndicateTechnician: [ 5, 5 ]
+            #service (6 - 8)
+            NTService: [ 2, 2 ]
+            SyndicateService: [ 2, 2 ]
+            NTJanitor: [ 1, 2 ]
+            SyndicateJanitor: [ 1, 2 ]
+            #supply (6)
+            NTSupplier: [ 3, 3 ]
+            SyndicateSupplier: [ 3, 3 ]
+            #civilian (6+)
+#            NTAssistant: [ -1, -1 ] #infinite, not counted
+#            SyndicateAssistant: [ -1, -1 ] #infinite, not counted
+            NTClown: [ 1, 1 ]
+            SyndicateClown: [ 1, 1 ]
+            NTMime: [ 1, 1 ]
+            JobSyndicateMime: [ 1, 1 ]
+            NTMusician: [ 1, 1 ]
+            SyndicateMusician: [ 1, 1 ]
+            #other (3)
+            TradeStationAgent: [ 3, 3 ]
